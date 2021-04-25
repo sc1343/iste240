@@ -1,0 +1,403 @@
+body{
+background: #8b78b4;
+}
+
+#menu{
+    overflow: visible;
+    background-color:rgba(255,255,255,0.5);
+}
+
+
+
+#menu li {
+	font-size:18px;
+	float: left;
+}
+
+.sticky ul{
+  position: fixed;
+  width: 100%;
+  background-color:white;
+  opacity:1;
+  overflow: visible;
+  z-index:1;
+}
+
+
+#menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu li a:hover:not(.active) {
+	background:rgba(124,197,227,0.8)
+}
+
+.active {
+    background-color: #eebffa;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align:center;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  font-size:10pt;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+#logo {
+  width:140px;
+  height:140px;
+
+}
+
+
+h1{
+	text-align:center;
+	  font:bold;
+	  padding:28px;
+	  color:white;
+
+
+}
+
+p{
+	color:white;
+	font-size:20pt;
+	padding:10px;
+	font-family: Georgia, serif
+
+}
+
+
+.mySlides {
+	display: none
+}
+
+img {
+	vertical-align: middle;
+  	width:100%;
+
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1400px;
+  position: relative;
+  margin: auto;
+  background:white;
+  width:80%;
+
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color:black;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 25pt;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  top:20%;
+  text-shadow: 2px 1px black;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.five{
+	padding:30px;
+
+}
+.describe{
+	color:#031c6e;
+	padding:30px;
+	font-size:20pt;
+	margin:10px;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.intro{
+	padding:50px;
+
+}
+
+
+
+.item-1, 
+.item-2, 
+.item-3 {
+	position: absolute;
+	top: 12em;
+    width: 50%;
+    text-align:center;
+    font-size: 2em;
+    text-shadow: 3px 3px 2px black;
+	font-family: "Arial Black", Gadget, sans-serif;
+	animation-duration: 30s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+
+.map{
+	text-align:center;
+	margin:150px;
+	
+}
+
+.Content{
+	padding-left:100px;
+	padding-right:100px;
+	text-align:center;
+	background:rgba(255,255,255,0.4);
+
+}
+.heading{
+	position:sticky;
+	background:white;
+	padding:40px;
+	top:95%;
+	width:100%;
+	text-align:center;
+	font-size:30pt;
+	
+}
+
+.check{
+	width:50px;
+	height:auto;
+	display: inline-block;
+}
+
+footer{
+	text-align:center;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color:white;
+
+}
+@media only screen and (max-width: 1100px) {
+.item-1, 
+.item-2, 
+.item-3 {
+	position: absolute;
+    width: 50%;
+    top:30%;
+    text-align:center;
+    font-size: 20pt;
+    text-shadow: 3px 3px 2px black;
+	font-family: "Arial Black", Gadget, sans-serif;
+	animation-duration: 30s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+#menu li a {
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+
+}
+
+@media only screen and (max-width: 880px) {
+.item-1, 
+.item-2, 
+.item-3 {
+	position: absolute;
+    width: 50%;
+    text-align:center;
+    font-size: 16pt;
+    text-shadow: 3px 3px 2px black;
+	font-family: "Arial Black", Gadget, sans-serif;
+	animation-duration: 30s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	
+}
+.Content{
+	padding:0px;
+	margin:0px;
+
+}
+
+
+.heading{
+	display:none;
+}
+.map{
+	display:none;
+
+}
+#logo {
+  width:0px;
+  height:0px;
+}
+.text{
+	font-size:0pt;
+}
+
+.describe{
+	font-size:15pt;
+	height:300px;
+	overflow:scroll;
+
+}
+
+
+.intro{
+	background:rgba(255,255,255,0.2);
+	padding-bottom:50px;
+	
+}
+}
+
+@media only screen and (max-width: 500px) {
+.item-1, 
+.item-2, 
+.item-3 {
+	position: fixed;
+	margin-top:100px;
+    width: 50%;
+    text-align:center;
+    font-size: 10pt;
+    text-shadow: 3px 3px 2px black;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+.intro{
+	background:rgba(255,255,255,0.2);
+	overflow:visible;
+	padding-bottom:100px;
+
+}
+#menu li {
+	font-size:14px;
+}
+}
+
+@media only screen and (max-width: 350px) {
+.item-1, 
+.item-2, 
+.item-3 {
+	position: fixed;
+	margin-top:1px;
+    width: 50%;
+    text-align:center;
+    font-size: 5pt;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px black;
+	font-family: "Arial Black", Gadget, sans-serif;}
+	}

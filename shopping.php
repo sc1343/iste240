@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Shopping</title>
+	<link href="assets/css/must.css" rel="stylesheet" type="text/css">
+
+</head>
+	
+
+<body>
+  <div class = "back">
+  
+<!-- navigation with dropdown menu -->
+<!--Start of Navigation-->
+<div id="menu">	
+	<ul>
+		<li><a href="index.php"><img id="logo" style="display:inline-block" src="assets/images/logo2.png" alt="logo" /></a>	</li>		  
+		<li><a href="about.php">About</a></li>
+		<li><a href="region.php">Five Boroughs</a></li>
+		<li><a href="food.php">Restaurants</a></li>
+		<li><a href="museum.php">Museum</a></li>
+		<li><a href="must.php">Must Do</a></li>
+		<li><a href="shopping.php">Shopping</a></li>
+		<li><a href="transportation.php">Transportation</a></li>	
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn"> Other</a>
+   				<div class="dropdown-content">
+     				<a href="reference.php">Reference</a>
+					<a href="rubric.php">Grading Rubric</a>
+    			</div>   
+		<li><a href="survey.php">Survey</a></li>
+		<li><a href="image.php">Image Gallery</a></li>
+
+	</ul>
+</div>
+
+<h2>New York City Shopping Guide</h2>
+
+ 
+<!-- Photo Grid -->
+<div class = "shopping">
+<p> New York City has a well-deserved reputation as one of the world's great shopping destinations. </p>
+<p>With its world-renowned department stores, boutique shops, high-fashion and outlet centers</p>
+
+<div class = "white">
+<div class="row"> 
+
+	<h3>Midtown</h3>
+  <div class="column">
+  <h5>The Midtown shopping district, which includes the Times Square area, is chock-full of the city's must-visit stores. </h5>
+  <h5>There's Macy's on 34th and Broadway, a massive department store that's home to the famous Thanksgiving
+   Day Parade. </h5>
+  <h5>Saks Fifth Avenue is an upscale department store that has amazing window decorations for the holidays. 
+  Tiffany's on 57th and Fifth Avenue is frequented by locals and tourists, it is also a great place to window
+   shop. In this area, Niketown boasts a huge selection of sneakers and wear. The Coach House flagship store
+    is located here and has beautiful leather goods and an especially a great selection of hand bags.</h5>
+    <h5> The Disney Store, LEGO Store, Midtown Comics, American Girl Place, and MoMa Design are also
+     worth a visit. </h5>
+          <img src="assets/images/mid3.jpg" alt="Midtown Image">
+  </div>
+  
+  <div class="column">
+        <img src="assets/images/mid4.jpg" alt="Midtown Image">
+
+      <img src="assets/images/mid1.jpg" alt="Midtown Image" title="Midtown Image">
+
+  </div>  
+</div>
+</div>
+
+
+<div class = "pink">
+
+<div class="row"> 
+	<h3>Lower Manhattan and the Financial District</h3>
+  <div class="column">
+  <img src="assets/images/low1.jpg" alt="Lower Manhattan and the Financial District image">
+  <img src="assets/images/low2.jpg" alt="Lower Manhattan and the Financial District image">
+  </div>
+  <div class="column">
+  <h5>Lower Manhattan and the Financial District is a prime shopping locale due to stores like Century 21,
+   a discount department store that attracts people from across the tristate area of New York, New Jersey, 
+   and Connecticut. </h5>
+  <h5> Century 21 displays new and discounted inventory almost daily. Arrive early to see the newest
+   merchandise. Westfield, located in the 4WTC building, is a newer shopping mall that offers food,
+    clothing, jewelry, and cosmetics. The upper floors are home to Eataly, an Italian food lover's dream. </h5>
+
+  <img src="assets/images/low3.jpg" alt="Lower Manhattan and the Financial District image">
+  </div>  
+</div>
+</div>
+
+
+
+<div class = "white">
+<div class="row"> 
+	<h3>SoHo</h3>
+  <div class="column">
+  <h5>SoHo has been trendy for decades,  it's the tony place to go shopping in New York City. </h5>
+    <h5> SoHo runs from Broadway to Sixth Avenue, and from Canal up to Houston. Once an artist mecca, the remnants of its past are still visible in its many art galleries and cafes that line each street.</h5>
+    <h5> SoHo is where you’ll find exclusive high-end boutiques. Bloomingdales has its flagship store uptown, but there’s a sister branch on Broadway that’s quite popular.</h5>
+  <img src="assets/images/soho1.jpg" alt="soho image">
+  </div>
+  <div class="column"> 
+  <img src="assets/images/soho2.jpg" alt="soho image">
+  <img src="assets/images/soho3.jpg" alt="soho image" >
+ 
+  </div>  
+</div>
+</div>
+
+
+
+<div class = "pink">
+<div class="row"> 
+	<h3>Union Square / Flatiron District</h3>
+  <div class="column">
+  <img src="assets/images/union1.jpg" alt="union square">
+  <img src="assets/images/union2.jpg" alt="union square">
+
+  </div>
+  <div class="column">
+  <h5>The Union Square / Flatiron District draws native New Yorkers and tourists alike.  Anchored by the Union Square subway station (one of the main arteries that brings shoppers from around the city)..</h5>
+  <h5>The Strand is quintessential New York City tourists, locals, and students go elbow to elbow looking in bins and shelves of thousands of books. This area is also home to many large stores, such as Nordstrom Rack and Paragon Sports, as well as countless smaller boutique stores. </h5>
+  <img src="assets/images/union3.jpg" alt="union square">
+  </div>  
+</div>
+</div>
+
+<div class = "white">
+<div class="row"> 
+	<h3> 5th Avenue</h3>
+  <div class="column">
+  <h5>Fifth Avenue is home to some of New York's most iconic stores such as Tiffany & Co, Saks, Cartier, Armani and Bergdorf Goodman. </h5>
+  <h5> There’s also a mammoth 10,000 square foot Apple Store that's open 24 hours a day. Enter on 59th Street by Central Park and work your way down to 14th Street.</h5>
+
+  <img src="assets/images/5av1.jpg" alt="5av" title="picture of 5th Avenue">
+  </div>
+  <div class="column"> 
+  <img src="assets/images/5av2.jpg" alt="5av" title="picture of 5th Avenue">
+  </div>  
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var menu = document.getElementById("menu");
+var sticky = menu.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    menu.classList.add("sticky")
+  } else {
+    menu.classList.remove("sticky");
+  }
+}
+
+
+
+</script>
+
+
+<footer>  
+	<p>CURRENT TIME:  <span id="datetime"></span></p>
+	<script>
+	var dt = new Date();
+	document.getElementById("datetime").innerHTML = dt.toLocaleString();
+	</script>
+		<?php
+		$filename = 'shopping.php';
+		if (file_exists($filename)) {
+    	echo "Last modified: " . date ("l, F d Y h:ia", filemtime($filename));
+		}
+	?>
+
+		<div id="validation">
+			<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fpeople.rit.edu%2Fsc1343%2Fiste240%2Fproject1%2Fshopping.html">
+			<div class = "check"><img src="assets/images/html.png" alt="HTML5 check" title="HTML Check"></div>
+			</a>  
+			
+			<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpeople.rit.edu%2Fsc1343%2Fiste240%2Fproject1%2Fshopping.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+			<div class = "check"><img src="assets/images/css.png"  alt="CSS check" title="CSS check"></div>
+			</a>
+		</div>
+</footer>
+
+</body>
+	
+</html>

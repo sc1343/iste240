@@ -1,0 +1,180 @@
+body {
+	background-color:#d0eefc;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#4ba6e7;
+
+}
+
+h1{
+	border: 20px #f7ebfc;
+	outline-style: dotted;
+    background-color: #f8e0f6;
+    margin: 0.6em;
+    font-size: 40px;
+	text-align: center;
+	font-weight:bold;
+	border-style: outset;
+	color:#a47dfc;	
+}
+
+/* DIAPLAY NAVIGATION IMAGE */
+
+.leftnav{
+	float: left;
+
+}
+.rightnav{
+	float: right;
+
+}
+
+.centernav{
+
+}
+
+#menu ul{
+    list-style-type: none;
+    overflow: visible;
+    position: fixed;
+    width:100%;
+  	z-index: 1;    
+  	background:rgba(0,0,0,0.5)
+  	
+  	
+}
+
+#menu li {
+	font-size:18px;
+	float: left;
+	text-decoration: underline;
+
+
+}
+
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  height:110px;
+  z-index: 1;
+  background:black;
+  }
+
+
+  
+
+}
+
+.sticky + .content {
+  padding-top: 100px;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu li a:hover:not(.active) {
+	background:rgba(124,197,227,0.8)}
+}
+
+.active {
+    background-color: #eebffa;
+}
+
+
+li {
+  float: center;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  font-size:10pt;
+  
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+#logo {
+  width:100px;
+  height:100px;
+}
+
+
+
+h3 {
+  	color:#606eed;
+   font-size: 18pt;
+   	text-align: center;
+   	
+  
+}
+
+
+
+
+p{
+	font-size:22px;
+
+}
+
+h2{
+	color:#606eed;
+   font-size: 24pt;
+   	text-align: center;
+    border: 5px solid transparent;
+    padding: 4px;
+
+}
+
+span{
+	color:red;
+}
+
+#scrollbar{
+  	color:#606eed;
+   font-size: 18pt;
+   	text-align: center;
+}
+
+#contents{
+	text-align:center;
+}
+
+
+
